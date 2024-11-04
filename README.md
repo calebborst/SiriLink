@@ -1,4 +1,4 @@
-# SiriLink
+# SiriLink (Not working RN, this is just a template of what it will be)
 
 SiriLink is a web-based tool for creating and managing custom remote control events on your local network. With SiriLink, users can set up various actions, such as sleep, shutdown, restart, and lock, with an optional password for secure access. The application is designed with a sleek dark theme for ease of use and provides simple controls for creating, editing, and managing events.
 
