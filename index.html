@@ -5,7 +5,6 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>SiriLink</title>
   <style>
-    /* General styles for dark theme */
     body {
       margin: 0;
       font-family: Arial, sans-serif;
@@ -232,12 +231,9 @@
 </head>
 <body>
 
-  <!-- Header -->
   <header>SiriLink</header>
 
-  <!-- Main Content Container -->
   <div class="main-container">
-    <!-- Event Creation Section -->
     <div class="event-form">
       <h2>Create New Event</h2>
       <div class="input-group">
@@ -261,23 +257,19 @@
       </div>
       <button class="action-button" onclick="addEvent()">Create Event</button>
 
-      <!-- Global Port Configuration -->
       <div class="port-container">
         <label for="globalPort">Global Port:</label>
         <input type="number" id="globalPort" value="5000" oninput="updatePort(this.value)">
       </div>
     </div>
 
-    <!-- Event List Section -->
     <div class="event-list">
       <h2>Active Events</h2>
       <div id="eventCardsContainer">
-        <!-- Event cards will be dynamically added here -->
       </div>
     </div>
   </div>
 
-  <!-- Clipboard Notification Container -->
   <div class="clipboard-notice-container" id="clipboardNoticeContainer"></div>
 
   <script>
